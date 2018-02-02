@@ -1,0 +1,13 @@
+{
+    "name": "zhaihaoran",
+    "isTest": true,
+    "recommendActivity": "一段升段班",
+    "testNum": 3,
+    "testInfo": {
+        "rank": 2,
+        "duan": "10-5级",
+        "judge": 500,
+        "cal": 1700,
+        "mind": 899
+    }
+}

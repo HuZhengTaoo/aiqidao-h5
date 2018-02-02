@@ -1,0 +1,154 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+   
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.index-bg {
+   
+    background: url('../assets/index_bg.png') no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+.index-bg::-webkit-scrollbar{
+        display: none;
+     }
+
+.result-bg{
+    background: url('../assets/whitebg.png') center center no-repeat;
+    background-size: 100%;
+    width: 7.14rem;
+    height: 11.59rem;
+    margin: 1.40rem 0.05rem 0 0.18rem;
+    position: relative;
+}
+.gradelist-wrap{
+    position: absolute;
+    left: 50%;
+    margin-left:-1.78rem;
+    top:-0.5rem;
+}
+.gradelist-icon{
+    width: 3.56rem;
+    height: 1.22rem;
+}
+.movingBottomCloud img{
+    width: 1.63rem;
+    height: 1.28rem;
+}
+.movingBottomCloud{
+    bottom: 0;
+    position: absolute;
+    z-index: 10;
+}
+.resultDescribe{
+    font-size:.32rem;
+    line-height: .4rem;
+    font-weight: bold;
+    padding:.94rem .46rem 0 .46rem;
+    letter-spacing:0.02rem;
+}
+.testName{
+    text-align: center;
+    font-size:.42rem;
+    font-weight: bold;
+}
+.yellow-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   font-weight:bold;
+}
+.yellow-box-detail{
+    width:6.56rem;
+    height: 3.06rem;
+    background: url('../assets/yellowbox.png') center center no-repeat;
+    background-size: 100%;
+}
+.ranking{
+    font-size:.3rem;
+    text-indent: .54rem;
+    margin-top:.23rem;
+    margin-bottom:.11rem;
+}
+.flex-content{
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+}
+/* .listcircle{
+    width: 1.08rem;
+    height: 1.08rem;
+    margin:0 .28rem 0 .28rem;
+} */
+
+.left{
+    background: url('../assets/listcircle.png') center center no-repeat;
+    width: 1.08rem;
+    height: 1.08rem;
+    margin:0 .28rem 0 .28rem;
+    background-size: 100%;
+    color:white;
+    font-size:.72rem;
+    text-align: center;
+    line-height: 1.08rem;
+}
+
+.center{
+    flex:1;
+}
+
+.right{
+    flex:1;
+}
+
+.getPrice{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.getPriceBtn{
+    width:2.62rem;
+    height: .84rem;
+}
+.barWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.bar{
+    background: url('../assets/bar.png') center center no-repeat;
+    background-size: 100%;
+    width:3.97rem;
+    height: 0.78rem;
+}
+.recommondClass{
+    background: url('../assets/originbox.png') center center no-repeat;
+    background-size: 100%;
+    width:5.3rem;
+    height: 1.49rem;
+    text-align: center;
+    line-height: 1.49rem;
+    color:#fff;
+    
+}
+.recommondClassWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-size:.42rem;
+}
+
+.font-shadow{
+    /* text-shadow: #000 0.04rem 0 0,#000 0 0.04rem 0,#000 -0.04rem 0 0,#000 0 -0.04rem 0; */
+
+    text-shadow: 2px 0 1px #000, -2px 0 1px #000, 0 2px 1px #000, 0 -2px 1px #000;
+}

@@ -1,0 +1,91 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+   
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.index-bg {
+   
+    background: url('../assets/index_bg.png') no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+.index-bg::-webkit-scrollbar{
+        display: none;
+     }
+
+.result-bg{
+    background: url('../assets/whitebg.png') center center no-repeat;
+    background-size: 100%;
+    width: 7.14rem;
+    height: 11.59rem;
+    margin: 1.40rem 0.05rem 0 0.18rem;
+    position: relative;
+}
+.gradelist-wrap{
+    position: absolute;
+    left: 50%;
+    margin-left:-1.78rem;
+    top:-0.5rem;
+}
+.gradelist-icon{
+    width: 3.56rem;
+    height: 1.22rem;
+}
+.movingBottomCloud img{
+    width: 1.63rem;
+    height: 1.28rem;
+}
+.movingBottomCloud{
+    bottom: 0;
+    position: absolute;
+    z-index: 10;
+}
+.qqGroupBoxWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.qqGroup{
+    background: url('../assets/qqbox.png') center center no-repeat;
+    background-size: 100%;
+    width:6.3rem;
+    height: 5.49rem;
+    position: relative;
+    text-align: center;
+}
+.aiqidaoGroupWrap{
+    position: absolute;
+    left:50%;
+    margin-left:-1.17rem;
+    margin-top:-.33rem;
+}
+.aiqidaoGroupPic{
+    width:2.34rem;;
+    height: .66rem;
+}
+.groupDes{
+    margin-top:.5rem;
+    font-size:.28rem;
+    line-height: .30rem;
+    font-weight: bold;
+}
+.saoyisao{
+    width:1.92rem;
+    height: 1.92rem;
+}
+
+.font-shadow{
+    text-shadow: #000 0.04rem 0 0,#000 0 0.04rem 0,#000 -0.04rem 0 0,#000 0 -0.04rem 0;
+}
+.redText{
+    color:#ec3131;
+    margin-top:0.1rem;
+}

@@ -1,0 +1,120 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.index-bg {
+    background: url('../assets/index_bg.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo {
+    margin-top: 1.24rem;
+}
+
+.logo img {
+    height: 0.62rem;
+    width: 2.03rem;
+    margin: 0.02rem auto;
+}
+
+.responsive-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h3.title {
+    font-size: 0.72rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 0;
+    height: 2.2rem;
+}
+
+.search-wrapper {
+    background: url('../assets/index_box.png') center center no-repeat;
+    background-size: 100%;
+    height: 4.70rem;
+    width: 7.40rem;
+    padding: 0.22rem 0.3rem;
+}
+
+.search-title {
+    color: rgb(64, 16, 6);
+    font-size: .5rem;
+    text-align: center;
+    margin: 0.34rem 0;
+}
+
+.search-button {
+    background: url('../assets/button.png') center center no-repeat;
+    background-size: 100%;
+    height:.92rem;
+    width: 2.68rem;
+    margin: 0.2rem 2.42rem;
+}
+
+.search-input {
+    background: url('../assets/input.png') center center no-repeat;
+    background-size: 100%;
+    margin: 0 0.65rem;
+    padding: 0.2rem 0.1rem;
+    height:0.86rem;
+    width: 5.68rem;
+}
+
+.search-context .ant-input {
+    border: none;
+    height: 0.4rem !important;
+}
+
+.search-context .ant-input:focus {
+    box-shadow: none;
+}
+
+.ant-select {
+    display: flex;
+    height: 0.4rem;
+}
+
+.ant-select-auto-complete.ant-select-lg .ant-select-selection__rendered {
+    height: 0.2rem !important;
+    /* line-height: 0.34rem;
+    font-size: 0.34rem; */
+}
+
+.ant-select-auto-complete.ant-select .ant-select-selection--single {
+    height: 0.2rem;
+}
+
+.ant-select-auto-complete.ant-select .ant-select-search--inline {
+    height: 0.2rem;
+    line-height: 0.2rem;
+}
+
+/* animate */
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 800ms ease-in;
+}
